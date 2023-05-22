@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#5E6FCA"
+
+    >
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the BMI Calculate"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#D5D6C9"
+        android:gravity="center"
+        android:paddingTop="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Need this information"
+        android:paddingTop="50dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. You must have know your Height in Feet(ft).\n\n2.You must
+have know the Weight in Kilogram(Kg)"
+
+        android:paddingTop="50dp"
+        android:paddingLeft="15dp"
+
+        android:textSize="18sp"
+        />
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="270dp"
+        android:layout_height="55dp"
+        android:text="Click to calculate"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="@color/teal_700"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thanks for choosing us"
+        android:textSize="23sp"
+        android:paddingTop="230dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

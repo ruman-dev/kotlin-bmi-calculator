@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "500806528873",
+    "firebase_url": "https://al-quran-67307-default-rtdb.firebaseio.com",
+    "project_id": "al-quran-67307",
+    "storage_bucket": "al-quran-67307.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:500806528873:android:d9dd38fc0b9793e1f8d7f8",
+        "android_client_info": {
+          "package_name": "com.nelu.quran"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "500806528873-iuhs6u0ljr8snrn530phvvqb24pqmufo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBODLCVQQoYnLI4uLY9VR9YQcUUwH_UEdI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "500806528873-iuhs6u0ljr8snrn530phvvqb24pqmufo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

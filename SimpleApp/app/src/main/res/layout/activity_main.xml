@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please write your name"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/edName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:hint="Your name"
+        android:textColor="@color/black"
+
+        />
+
+    <TextView
+        android:id="@+id/Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please write your age"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/edAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="numberDecimal"
+        android:padding="15dp"
+        android:hint="Your age"
+        android:textColor="@color/black"
+
+        />
+
+    <TextView
+        android:id="@+id/Gen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please write your gender"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/edGen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="text"
+        android:padding="15dp"
+        android:hint="Your gender"
+        android:textColor="@color/black"
+
+        />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please write your email"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:id="@+id/edEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:hint="Your email"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/butt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#D82727"
+        />
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:text=""
+
+        />
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="12dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+
+        <ImageView
+
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:src="@drawable/bada"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text="Assubhu Bada By Usaid Zahid Siddique"
+                android:textSize="18sp"
+                />
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text="Usaid Zahid Siddique || Assubhu Bada || New Naat|| Allah Hu Allah || Heera Gold"
+                />
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/play1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/play_icon"
+            android:layout_gravity="center"
+            android:tag="NOT_PLAYING"
+            />
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:src="@drawable/nabir_ruper_alo"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="Nobir Ruper Alo By Rifat, Sifat and Shaown | Kalarab"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="Holy Tune presents Islamic Song : নতুন ইসলামিক গজল 2021 । Nobir Ruper Alo । নবীর রূপের আলো । Rifat, Sifat Shaown । Kalarab
+Hope you will enjoy our exclusive Hamd, Naat, Islamic Nasheed"
+            />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/play2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/play_icon"
+        android:layout_gravity="center"
+        android:tag="NOT_PLAYING"
+        />
+</LinearLayout>
+
+</LinearLayout>
+

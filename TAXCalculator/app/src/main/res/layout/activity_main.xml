@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#ADF1CE"
+    android:padding="15dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TAX CALCULATOR"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:padding="22dp"
+        android:textStyle="bold"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="50dp"
+        android:layout_marginBottom="50dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Value of Asset"
+        android:textSize="20sp"
+
+
+        />
+    <EditText
+        android:id="@+id/asset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        />
+</LinearLayout>
+
+
+    <Button
+        android:id="@+id/Button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Calculate"
+        android:backgroundTint="#E15513"
+        android:textColor="@color/black"
+        android:layout_marginBottom="100dp"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F8EE96"
+    >
+
+        <TextView
+            android:id="@+id/tvDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text=""
+            android:textColor="#9FFB2D8D"
+            android:textSize="30sp"
+
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

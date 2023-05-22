@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".another_activity"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/ruman_web_origin"
+
+        />
+
+    <Button
+        android:id="@+id/visit_my_website"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Visit my Website"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/ubuntu_regular"
+        />
+    <Button
+        android:id="@+id/call_me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call me"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/ubuntu_regular"
+        />
+    <Button
+        android:id="@+id/send_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Message"
+        android:textSize="20sp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/ubuntu_regular"
+        />
+
+    <Button
+        android:id="@+id/back_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back Home"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="#DF0404"
+        android:textSize="20sp"
+        android:fontFamily="@font/ubuntu_regular"
+        />
+
+
+
+</LinearLayout>

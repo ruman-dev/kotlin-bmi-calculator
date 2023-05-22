@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#989595"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Your Buying Price"
+        android:padding="15dp"
+        android:textColor="#5DEFCD"
+        />
+
+    <EditText
+        android:id="@+id/edBuy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:inputType="numberDecimal"
+        android:hint="Value"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Percentage"
+        android:padding="15dp"
+        android:textColor="#5DEFCD"
+        />
+
+    <EditText
+        android:id="@+id/"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:inputType="numberDecimal"
+        android:hint="Value"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="Calculate"
+        android:layout_gravity="center"
+        android:backgroundTint="#38E13B"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Your Buying Price"
+        android:padding="15dp"
+        />
+
+
+
+</LinearLayout>

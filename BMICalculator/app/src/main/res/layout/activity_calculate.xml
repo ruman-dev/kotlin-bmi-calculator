@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculate"
+    android:orientation="vertical"
+    android:background="#5E6FCA"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculator"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:background="#D5CA6D"
+        android:layout_marginBottom="40dp"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:id="@+id/edweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Kg"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Height"
+        android:textSize="22sp"
+        android:textColor="#000000"
+        />
+    <LinearLayout
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <EditText
+        android:id="@+id/edfeet"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:ems="5"
+        android:inputType="number"
+        android:hint="feet"
+        />
+        <EditText
+            android:id="@+id/edinch"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:ems="6"
+            android:inputType="number"
+            android:hint="inch"
+            android:layout_marginLeft="25dp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#5C8E22"
+        android:layout_marginBottom="12dp"
+        />
+    <ScrollView
+        android:layout_width="380dp"
+        android:layout_height="315dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/result"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="17sp"
+
+            />
+    </ScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Powered By BitByte Solutions Ltd"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:paddingTop="12dp"
+        />
+</LinearLayout>
